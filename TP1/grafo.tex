@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1, every node/.style={circle, fill, inner sep=2pt}]
+    
+    % Nodes
+    \foreach \i in {0,...,11} {
+        \node[label=below:{\i}] (\i) at (\i,0) {};
+    }
+
+    % Caminho principal
+    \foreach \i in {0,...,11} {
+        \draw[->] (\i) -- (\i+1);
+    }
+
+    % Arcos coloridos
+    \draw[->,very thick, bend left, orange] (0) to (2);
+    \draw[->,very thick, bend left, orange] (2) to (4);
+    \draw[->,very thick, bend left, orange] (3) to (5);
+    \draw[->,very thick, bend left, orange] (4) to (6);
+    \draw[->,very thick, bend left, orange] (5) to (7);
+    \draw[->,very thick, bend left, orange] (6) to (8);
+    \draw[->,very thick, bend left, orange] (7) to (9);
+    \draw[->,very thick, bend left, orange] (8) to (10);
+    \draw[->,very thick, bend left, orange] (9) to (11);
+
+    \draw[->,very thick, bend left = 50, green] (0) to (4);
+    \draw[->,very thick, bend left = 50, green] (4) to (8);
+    \draw[->,very thick, bend left = 50, green] (5) to (9);
+ 
+    \draw[->,very thick, bend right = 80, magenta] (0) to (3);
+    \draw[->,very thick, bend right = 80, magenta] (3) to (6);
+    \draw[->,very thick, bend right = 80, magenta] (4) to (7);
+    \draw[->,very thick, bend right = 80, magenta] (5) to (8);
+    \draw[->,very thick, bend right = 80, magenta] (6) to (9);
+    \draw[->,very thick, bend right = 80, magenta] (7) to (10);
+    \draw[->,very thick, bend right = 80, magenta] (8) to (11);
+
+    \draw[->,very thick, bend right = 100, cyan] (0) to (5);
+    \draw[->,very thick, bend right = 100, cyan] (5) to (10);
+
+    \draw[->,very thick, bend right = 100, gray] (7) to (0);
+    \draw[->,very thick, bend right = 100, gray] (10) to (0);
+    \draw[->,very thick, bend right = 100, gray] (11) to (0);
+
+
+\end{tikzpicture}
+
+\end{document} 
