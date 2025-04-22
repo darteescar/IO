@@ -8,7 +8,7 @@ No primeiro trabalho, o objetivo era resolver um problema de empacotamento a uma
 * [Trabalho 2 :  ?? / 20 ⭐️ ] (TP2)
 
 # IO (English)
-Projects carried out in the scope of the Operational Research course. You can check the respective statements ( [statement TP1](TP1/enunciado_fase_1.pdf) and [statement TP2](TP2/enunciado_fase_2.pdf) ) and the respective reports ( [report TP1](TP1/relatório_fase_1.pdf)  and [report TP2](TP2/relatorio_fase_2.pdf)) (both in Portuguese) .
+Projects carried out in the scope of the Operational Research course. You can check the respective statements ( [statement TP1](TP1/enunciado_fase_1.pdf) and [statement TP2](TP2/enunciado_fase_2.pdf) ) and the respective reports ( [report TP1](TP1/relatório_fase_1.pdf)  and [report TP2](TP2/relatorio_fase_2.pdf) ) (both in Portuguese) .
 
 On the first project, the objective was to solve a one-dimensional bin packing problem with containers of different capacities. On the second project, the objective was to obtain the minimum cut of a graph resulting from a network flow model.
 
