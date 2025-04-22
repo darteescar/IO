@@ -13,5 +13,5 @@ Projects carried out in the scope of the Operational Research course. You can ch
 On the first project, the objective was to solve a one-dimensional bin packing problem with containers of different capacities. On the second project, the objective was to obtain the minimum cut of a graph resulting from a network flow model.
 
 ### Final Notes:
-* [Work 1 :  18 / 20 ⭐️ ] (TP1)
-* [Work 2 :  ?? / 20 ⭐️ ] (TP2)
+* [Project 1 :  18 / 20 ⭐️ ] (TP1)
+* [Project 2 :  ?? / 20 ⭐️ ] (TP2)
