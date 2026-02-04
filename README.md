@@ -1,5 +1,5 @@
 # IO (Português)
-Trabalhos realizados no âmbito da cadeira de Investigação Operacional. Pode consultar os devidos enunciados ( [enunciado TP1](TP1/enunciado_fase_1.pdf) e [enunciado TP2](TP2/enunciado_fase_2.pdf) ) e os respetivos relatórios ( [relatório TP1](TP1/relatório_fase_1.pdf) e [relatório TP2](TP2/relatorio_fase_2.pdf) ).
+Trabalhos realizados no âmbito da cadeira de Investigação Operacional. Pode consultar os devidos enunciados ( [enunciado TP1](TP1/enunciado_fase_1.pdf) e [enunciado TP2](TP2/enunciado_fase_2.pdf) ) e os respetivos relatórios ( [relatório TP1](TP1/relatório_fase_1.pdf) e [relatório TP2](TP2/relatorio_fase_2.pdf)).
 
 No primeiro trabalho, o objetivo era resolver um problema de empacotamento a uma dimensão com contentores de diferentes capacidades. No segundo trabalho, o objetivo era obter o corte mínimo de um grafo resultante de um modelo de fluxo de redes.
 
